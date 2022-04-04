@@ -42,7 +42,7 @@ class DataBaseApplication {
 	public boolean makeConnection() {
 		String url = "jdbc:mysql://localhost:3306/outerspace_local";
 		String username = "root";
-		String password = "wachtwoord";
+		String password = "your_password_here";
 		
 		try {
 			m_Conn = DriverManager.getConnection(url, username, password);
